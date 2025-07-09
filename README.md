@@ -24,7 +24,7 @@ bun format
 # Lint
 bun lint
 ```
-The format command will format almost everything in the project, but Biome is set to it will ignore anything that's in .gitignore and any file greater then 2MB which is double the default!
+The format command will format almost everything in the project, but Biome is set to it will ignore anything that's in `.gitignore` and any file greater then 2MB which is double the default!
 
 It will also organize your imports, if you don't like this, you can easily change this by modifying biome.json.
 
@@ -39,6 +39,6 @@ bun install && bun dev
 ```
 
 > [!NOTE]
-> You could modify biome.json by adding "formatter.useEditorConfig: true" to use .editorconfig for formatting rules
+> You could modify biome.json by adding `"formatter.useEditorConfig": true` to use an `.editorconfig` for formatting rules if you are into that.
 
 I heard [Zod](https://zod.dev/) is good!
