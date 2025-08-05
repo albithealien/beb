@@ -9,5 +9,5 @@ const app: Elysia = new Elysia()
 	.get("/", () => "Hello Elysia")
 	.listen(PORT);
 console.log(
-	`🦊 Elysia is running at http://${app.server?.hostname}:${app.server?.port}\nDocumentation available at http://localhost:3000/swagger`,
+	`Elysia is running at http://${app.server?.hostname}:${app.server?.port}\nDocumentation available at http://localhost:${PORT}/swagger`,
 );
